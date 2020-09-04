@@ -1,0 +1,12 @@
+@media only screen and (max-width:680px){
+
+    body{
+        font: 13px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+
+#nav-bar{
+    top: auto;
+    align-self: start;
+}
