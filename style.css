@@ -1,18 +1,16 @@
 body{
+    align-content: center;
+    align-items: center;
+    text-align: center;
     font: 13px;
     font-family: 'Courier New', Courier, monospace;
+    background-color: burlywood;
 }
-
 
 #nav-bar{
     top: auto;
     align-self: start;
-}
-
-.flex-row-space {
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: center;
+    padding-right:30px;
 }
 
 .flex-row {
@@ -20,13 +18,22 @@ body{
     justify-content: center;
     align-items: center;
 }
-
-/* .flex-row-right {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-} */
-
+#submit{
+    color: red;
+}
+h1{
+    font-size: 30px;
+}
+h3{
+    font-size: 25px;
+    color: wheat;
+}
+#email{
+    padding: 8px;
+}
+#submit{
+    padding: 8px;
+}
 @media only screen and (min-width: 480px) and (max-width: 600px) {
-    font-size: 14px;
+    
 }
